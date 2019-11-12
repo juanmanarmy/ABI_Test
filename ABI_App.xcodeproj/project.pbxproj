@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA75B74237A662800D6E9FA /* UserModelwProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA75B73237A662800D6E9FA /* UserModelwProtocol.swift */; };
 		80616E27237A2C90009D82FF /* ABI_patientConsent_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80616E26237A2C90009D82FF /* ABI_patientConsent_vc.swift */; };
 		80616E29237A5271009D82FF /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80616E28237A5271009D82FF /* testViewController.swift */; };
 		80C5B9D72379047C0095C880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5B9D62379047C0095C880 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA75B73237A662800D6E9FA /* UserModelwProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModelwProtocol.swift; path = ../../../Desktop/ABI_App/ABI_App/UserModelwProtocol.swift; sourceTree = "<group>"; };
 		80616E26237A2C90009D82FF /* ABI_patientConsent_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABI_patientConsent_vc.swift; sourceTree = "<group>"; };
 		80616E28237A5271009D82FF /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		80C5B9D32379047C0095C880 /* ABI_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABI_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 		80C5B9D52379047C0095C880 /* ABI_App */ = {
 			isa = PBXGroup;
 			children = (
+				3FA75B73237A662800D6E9FA /* UserModelwProtocol.swift */,
 				80C5B9D62379047C0095C880 /* AppDelegate.swift */,
 				80C5B9D82379047C0095C880 /* ViewController.swift */,
 				80C5B9DA2379047C0095C880 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80616E29237A5271009D82FF /* testViewController.swift in Sources */,
+				3FA75B74237A662800D6E9FA /* UserModelwProtocol.swift in Sources */,
 				80C5B9EB23791A610095C880 /* ABI_register_vc.swift in Sources */,
 				80C5B9D92379047C0095C880 /* ViewController.swift in Sources */,
 				80C5B9D72379047C0095C880 /* AppDelegate.swift in Sources */,
