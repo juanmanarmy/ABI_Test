@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80616E27237A2C90009D82FF /* ABI_patientConsent_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80616E26237A2C90009D82FF /* ABI_patientConsent_vc.swift */; };
+		80616E29237A5271009D82FF /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80616E28237A5271009D82FF /* testViewController.swift */; };
 		80C5B9D72379047C0095C880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5B9D62379047C0095C880 /* AppDelegate.swift */; };
 		80C5B9D92379047C0095C880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C5B9D82379047C0095C880 /* ViewController.swift */; };
 		80C5B9DC2379047C0095C880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C5B9DA2379047C0095C880 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80616E26237A2C90009D82FF /* ABI_patientConsent_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABI_patientConsent_vc.swift; sourceTree = "<group>"; };
+		80616E28237A5271009D82FF /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		80C5B9D32379047C0095C880 /* ABI_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABI_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C5B9D62379047C0095C880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C5B9D82379047C0095C880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				80C5B9E82379164E0095C880 /* ABI_login_vc.swift */,
 				80C5B9EA23791A610095C880 /* ABI_register_vc.swift */,
 				80C5B9EC23791EBB0095C880 /* ABI_form.storyboard */,
+				80616E26237A2C90009D82FF /* ABI_patientConsent_vc.swift */,
+				80616E28237A5271009D82FF /* testViewController.swift */,
 			);
 			path = ABI_App;
 			sourceTree = "<group>";
@@ -145,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80616E29237A5271009D82FF /* testViewController.swift in Sources */,
 				80C5B9EB23791A610095C880 /* ABI_register_vc.swift in Sources */,
 				80C5B9D92379047C0095C880 /* ViewController.swift in Sources */,
 				80C5B9D72379047C0095C880 /* AppDelegate.swift in Sources */,
+				80616E27237A2C90009D82FF /* ABI_patientConsent_vc.swift in Sources */,
 				80C5B9E92379164E0095C880 /* ABI_login_vc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
