@@ -12,6 +12,8 @@ class ABI_login_vc: UIViewController {
 
     @IBOutlet var login_username_tf: UITextField!
     @IBOutlet var login_password_tf: UITextField!
+    @IBOutlet var login_button: UIButton!
+    
     
     
     @IBAction func login_button(_ sender: Any) {
@@ -20,6 +22,13 @@ class ABI_login_vc: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        login_username_tf.layer.cornerRadius = 13
+        login_password_tf.layer.cornerRadius = 13
+        login_button.layer.cornerRadius = 15
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }

@@ -16,6 +16,7 @@ class ABI_register_vc: UIViewController {
     @IBOutlet var register_email_tf: UITextField!
     @IBOutlet var register_password_tf: UITextField!
     @IBOutlet var register_confirmPass_tf: UITextField!
+    @IBOutlet var register_button: UIButton!
     
     
     @IBAction func register_button(_ sender: Any) {
@@ -25,6 +26,13 @@ class ABI_register_vc: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        register_firstName_tf.layer.cornerRadius = 13
+        register_lastName_tf.layer.cornerRadius = 13
+        register_email_tf.layer.cornerRadius = 13
+        register_password_tf.layer.cornerRadius = 13
+        register_confirmPass_tf.layer.cornerRadius = 13
+        register_button.layer.cornerRadius = 15
 
         // Do any additional setup after loading the view.
     }
